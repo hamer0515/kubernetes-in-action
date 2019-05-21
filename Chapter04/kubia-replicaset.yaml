@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: kubia
-        image: luksa/kubia
+        image: registry.cn-hangzhou.aliyuncs.com/hbox/kubia:latest

@@ -4,7 +4,7 @@ metadata:
   name: kubia-liveness
 spec:
   containers:
-  - image: luksa/kubia-unhealthy
+  - image: registry.cn-hangzhou.aliyuncs.com/hbox/kubia-unhealthy:latest
     name: kubia
     livenessProbe:
       httpGet:

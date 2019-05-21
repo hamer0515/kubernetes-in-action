@@ -7,7 +7,7 @@ metadata:
     env: prod
 spec:
   containers:
-  - image: luksa/kubia
+  - image: registry.cn-hangzhou.aliyuncs.com/hbox/kubia:latest
     name: kubia
     ports:
     - containerPort: 8080
